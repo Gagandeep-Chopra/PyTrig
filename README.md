@@ -6,7 +6,9 @@ Constants
 PyTrig provides the following mathematical constants:
 
 mat.pi: Value of π (3.141592653589793)
+
 mat.e: Value of e (2.718281828459045)
+
 mat.phi: Value of the golden ratio (1.618033988749895)
 General Math Functions
 pytrig.root(x, y)
