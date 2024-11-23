@@ -14,7 +14,7 @@ class mat:
   def log(self, base, x):
     if x <= 0 or base <= 0 or base == 1:
       raise ValueError
-    return math.log(x) / math.log(base)
+    return self.ln(x) / self.ln(base)
 
   def factorial(self, n):
     if n < 0:
